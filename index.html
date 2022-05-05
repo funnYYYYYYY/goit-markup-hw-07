@@ -21,63 +21,58 @@
     <link rel="stylesheet" href="./css/ctyle.css" />
   </head>
   <body>
-    <!-- Header -->
+    <!--------------------------------- Header --------------------------------------------------->
+
     <header class="header">
-      <div class="container">
-        <div class="wrap-logo">
-          <a class="header-logo link" href="">
-            <span class="logo">Web</span>Studio</a
+      <div class="container container--display">
+        <div class="logo">
+          <a class="logo__link link" href="">
+            <span class="logo__text">Web</span>Studio</a
           >
         </div>
-        <nav class="nav-menu">
+        <nav class="menu">
           <ul class="nav-list list">
-            <li class="nav-item">
-              <a class="nav-link current link" href="">Студия</a>
+            <li class="nav-list__item">
+              <a class="nav-list__link current link" href="">Студия</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link link" href="./portfolio.html">Портфолио</a>
+            <li class="nav-list__item">
+              <a class="nav-list__link link" href="./portfolio.html"
+                >Портфолио</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="nav-link link" href="">Контакты</a>
+            <li class="nav-list__item">
+              <a class="nav-list__link link" href="">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="nav-list list">
-          <li class="nav-item">
-            <a class="header-other-nav link" href="mailto:info@devstudio.com">
-              <svg class="header-svg" width="16px" height="12px">
-                <use
-                  class="header-svg-envelope"
-                  href="./images/icons.svg#icon-envelope"
-                ></use>
+          <li class="nav-list__item">
+            <a class="nav-list__link link" href="mailto:info@devstudio.com">
+              <svg class="nav-list__icon" width="16px" height="12px">
+                <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="nav-item">
-            <a class="header-other-nav list link" href="tel:+380961111111">
-              <svg class="header-svg" width="10px" height="16px">
-                <use
-                  class="header-svg-envelope"
-                  href="./images/icons.svg#icon-smartphone"
-                ></use></svg
+          <li class="nav-list__item">
+            <a class="nav-list__link list link" href="tel:+380961111111">
+              <svg class="nav-list__icon" width="10px" height="16px">
+                <use href="./images/icons.svg#icon-smartphone"></use></svg
               >+38 096 111 11 11</a
             >
           </li>
         </ul>
       </div>
     </header>
-    <!-- Main -->
+
+    <!--------------------------------------- Main ------------------------------------------>
+
     <main>
       <!-- Section 1-->
       <section class="section primary">
         <div class="container">
           <h1 class="primary-title">Эффективные решения для вашего бизнеса</h1>
-          <button
-            data-modal-open
-            class="primary-btn current-button"
-            type="button"
-          >
+          <button data-modal-open class="primary-btn" type="button">
             Заказать услугу
           </button>
         </div>
@@ -87,13 +82,10 @@
         <div class="container">
           <h2 class="visually-hidden">Преимущества</h2>
           <ul class="benefits-list list">
-            <li class="benefits-item">
+            <li class="benefits-list__item">
               <div class="container-sections-two">
                 <svg class="benefits-svg" width="70" height="70">
-                  <use
-                    class="benefits-icon"
-                    href="./images/icons.svg#antenna-1"
-                  ></use>
+                  <use href="./images/icons.svg#antenna-1"></use>
                 </svg>
               </div>
               <h3 class="benefits-company">Внимание к деталям</h3>
@@ -102,13 +94,10 @@
                 формированию позиции.
               </p>
             </li>
-            <li class="benefits-item">
+            <li class="benefits-list__item">
               <div class="container-sections-two">
                 <svg class="benefits-svg" width="70" height="70">
-                  <use
-                    class="benefits-icon"
-                    href="./images/icons.svg#icon-clock-1"
-                  ></use>
+                  <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
               <h3 class="benefits-company">Пунктуальность</h3>
@@ -117,13 +106,10 @@
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="benefits-item">
+            <li class="benefits-list__item">
               <div class="container-sections-two">
                 <svg class="benefits-svg" width="70" height="70">
-                  <use
-                    class="benefits-icon"
-                    href="./images/icons.svg#icon-diagram"
-                  ></use>
+                  <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
               <h3 class="benefits-company">Планирование</h3>
@@ -132,13 +118,10 @@
                 степени обуславливает.
               </p>
             </li>
-            <li class="benefits-item">
+            <li class="benefits-list__item">
               <div class="container-sections-two">
                 <svg class="benefits-svg" width="70" height="70">
-                  <use
-                    class="benefits-icon"
-                    href="./images/icons.svg#icon-astronaut-1"
-                  ></use>
+                  <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
               <h3 class="benefits-company">Современные технологии</h3>
