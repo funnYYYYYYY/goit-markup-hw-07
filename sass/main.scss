@@ -1,0 +1,38 @@
+// -------------------------------BASE--------------------------------
+@import "./base/start";
+@import "./base/reset";
+
+// -------------------------------COMPONENTS--------------------------
+
+@import "./components/variable";
+@import "./components/container";
+@import "./components/section";
+@import "./components/container-footer";
+@import "./components/worker__container--position";
+
+// -------------------------------UTILS--------------------------------
+@import "./utils/visually-hidden";
+@import "./utils/current";
+@import "./utils/button-portfolio";
+@import "./utils/primary-btn";
+@import "./utils/title-sections-three-for";
+@import "./utils/button-footer";
+@import "./utils/moddal-button";
+@import "./utils/modal_submit";
+
+// -------------------------------LAYOUT-----------------------------
+@import "./layout/header";
+@import "./layout/section-one";
+@import "./layout/section-two.scss";
+@import "./layout/section-three";
+@import "./layout/section-for";
+@import "./layout/section-five";
+@import "./layout/portfolio";
+@import "./layout/footer";
+
+// -------------------------------BACKDROP-----------------------------
+
+@import "./layout/backdrop";
+
+// // -------------------------------MODAL-----------------------------
+@import "./layout/modal";

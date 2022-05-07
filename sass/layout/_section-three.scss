@@ -1,0 +1,38 @@
+.product {
+  padding-top: 0;
+
+  &-device {
+    display: flex;
+  }
+}
+
+.device {
+  position: relative;
+
+  &__title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background-color: var(--bcg-product-device);
+    width: 100%;
+    height: 70px;
+    color: var(--background-color);
+  }
+}
+
+.product__pic {
+  display: block;
+  justify-content: space-around;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
