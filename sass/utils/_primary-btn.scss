@@ -1,8 +1,8 @@
 .primary__btn {
   display: block;
   margin: 0 auto;
-  background-color: #2196f3;
-  color: var(--other-text-color);
+  background-color: $accent-text-color;
+  color: $other-text-color;
   cursor: pointer;
   border: none;
   font-weight: 700;
@@ -15,7 +15,7 @@
 
   &:hover,
   &:focus {
-    background-color: #188ce8;
+    background-color: $modal-color;
   }
 
   &--correct {

@@ -42,32 +42,32 @@
 
 .informations-list__number {
   display: block;
-  color: var(--others-text-color);
+  color: $others-text-color;
   font-style: normal;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &--accent:hover {
-    color: var(--accent-text-color);
+    color: $accent-text-color;
   }
 
   &--accent:focus {
-    color: var(--accent-text-color);
+    color: $accent-text-color;
   }
 }
 
 .informations-list__mail {
   display: block;
-  color: var(--others-text-color);
+  color: $others-text-color;
   font-style: normal;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &--accent:hover {
-    color: var(--accent-text-color);
+    color: $accent-text-color;
   }
   &--accent:focus {
-    color: var(--accent-text-color);
+    color: $accent-text-color;
   }
 }
 
@@ -84,7 +84,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--other-text-color);
+    color: $other-text-color;
   }
 }
 
@@ -103,15 +103,15 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: var(--bcg-footer-icon);
+  background-color: $bcg-footer-icon;
   cursor: pointer;
-  color: var(--background-color);
+  color: $background-color;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
-    background-color: var(--accent-text-color);
+    background-color: $accent-text-color;
   }
 }
 
@@ -130,6 +130,6 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--background-color);
+    color: $background-color;
   }
 }
