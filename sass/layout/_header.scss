@@ -42,12 +42,20 @@
   }
 }
 
+.nav-list__link--color {
+  color: red;
+  &:hover,
+  &:focus {
+    color: red;
+  }
+}
+
 .nav-list__link {
   align-items: center;
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
-  color: var(--primary-text-color);
+  color: var(--second-text-color);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
