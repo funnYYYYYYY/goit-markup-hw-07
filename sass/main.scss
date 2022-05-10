@@ -1,38 +1,31 @@
-// -------------------------------BASE--------------------------------
-@import "./base/start";
-@import "./base/reset";
-// @import "./utils/colors";
+// ----------------------UTILS---------------
 @import "./utils/variable";
-// -------------------------------COMPONENTS--------------------------
-@import "./components/container";
-@import "./components/section";
-@import "./components/container-footer";
-@import "./components/worker__container--position";
-
-// -------------------------------UTILS--------------------------------
-
-@import "./utils/visually-hidden";
+@import "./utils/start";
+@import "./utils/reset";
+@import "./utils/container";
+@import "./utils/section";
+@import "./utils/container-footer";
 @import "./utils/current";
-@import "./utils/button-portfolio";
-@import "./utils/primary-btn";
-@import "./utils/title-sections-three-for";
-@import "./utils/button-footer";
-@import "./utils/moddal-button";
-@import "./utils/modal_submit";
+@import "./utils/visually-hidden";
 
-// -------------------------------LAYOUT-----------------------------
-@import "./layout/header";
-@import "./layout/section-one";
-@import "./layout/section-two.scss";
-@import "./layout/section-three";
-@import "./layout/section-for";
-@import "./layout/section-five";
-@import "./layout/portfolio";
-@import "./layout/footer";
+// ----------------------BUTTONS-----------
 
-// -------------------------------BACKDROP-----------------------------
+@import "./button/primary-btn";
+@import "./button/button-portfolio";
+@import "./button/button-footer";
+@import "./button/moddal-button";
+@import "./button/modal_submit";
 
-@import "./layout/backdrop";
+// ----------------------COMPONENTS-----------
 
-// // -------------------------------MODAL-----------------------------
-@import "./layout/modal";
+@import "./components/header";
+@import "./components/section-one";
+@import "./components/section-two";
+@import "./components/title-sections-three-for";
+@import "./components/section-three";
+@import "./components/worker__container--position";
+@import "./components/section-for";
+@import "./components/section-five";
+@import "./components/portfolio";
+@import "./components/footer";
+@import "./components/backdrop";

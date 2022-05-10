@@ -6,7 +6,7 @@
 
   &__text {
     margin-bottom: 4px;
-    color: var(--second-text-color);
+    color: $second-text-color;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -14,7 +14,7 @@
   }
 
   &__description {
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
@@ -63,7 +63,7 @@
   top: 0;
   left: 0;
   color: $background-color;
-  background-color: rgba(33, 150, 243, 0.9);
+  background-color: $accent-text-color;
   height: 100%;
   padding-right: 24px;
   padding-left: 24px;
