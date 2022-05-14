@@ -2,12 +2,10 @@
 @import "./utils/variable";
 @import "./utils/start";
 @import "./utils/reset";
-@import "./utils/container";
-@import "./utils/section";
-@import "./utils/container-footer";
 @import "./utils/current";
 @import "./utils/visually-hidden";
-
+@import "./utils/placeholders";
+@import "./utils/mixins";
 // ----------------------BUTTONS-----------
 
 @import "./button/primary-btn";
@@ -18,14 +16,20 @@
 
 // ----------------------COMPONENTS-----------
 
-@import "./components/header";
-@import "./components/section-one";
-@import "./components/section-two";
+@import "./components/container";
+@import "./components/section";
 @import "./components/title-sections-three-for";
-@import "./components/section-three";
 @import "./components/worker__container--position";
-@import "./components/section-for";
-@import "./components/section-five";
-@import "./components/portfolio";
-@import "./components/footer";
+@import "./components/container-footer";
 @import "./components/backdrop";
+
+// ----------------------LAYOUT-----------
+
+@import "./layout/header";
+@import "./layout/section-one";
+@import "./layout/section-two";
+@import "./layout/section-three";
+@import "./layout/section-for";
+@import "./layout/section-five";
+@import "./layout/portfolio";
+@import "./layout/footer";

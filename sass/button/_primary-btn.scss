@@ -1,13 +1,11 @@
 .primary__btn {
+  @include font(null, 700, 1.88, 0.06em);
   display: block;
   margin: 0 auto;
   background-color: $accent-text-color;
   color: $other-text-color;
   cursor: pointer;
   border: none;
-  font-weight: 700;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
   padding: 6px 32px;
   border-radius: 4px;
 
@@ -19,7 +17,7 @@
   }
 
   &--correct {
-    height: 50px;
+    @include size(null, 50px);
     display: inline-flex;
     align-items: center;
   }

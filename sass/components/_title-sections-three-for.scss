@@ -2,9 +2,6 @@
 .about__team {
   margin-bottom: 50px;
   color: $second-text-color;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  @include font(36px, 700, 1.16, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
 }
