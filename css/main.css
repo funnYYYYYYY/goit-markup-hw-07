@@ -681,14 +681,9 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  color: rgb(255, 255, 255);
-  background-color: rgb(33, 150, 243);
-  height: 100%;
   padding-right: 24px;
   padding-left: 24px;
-  font-size: 18px;
-  line-height: 1.55;
-  letter-spacing: 0.03em;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -700,14 +695,24 @@ img {
           justify-content: center;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
+  opacity: 0;
+  background-color: rgb(33, 150, 243);
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.main-informations:hover .object__text, .main-informations:focus .object__text {
+.object:hover .object__text, .object:focus .object__text {
+  opacity: 1;
   -webkit-transform: translate(0);
           transform: translate(0);
+}
+
+.object__word {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
 }
 
 .information {
