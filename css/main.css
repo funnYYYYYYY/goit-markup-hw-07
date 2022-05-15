@@ -1,3 +1,29 @@
+.current {
+  color: rgb(33, 150, 243);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.informations-list, .join, .product-development, .filtr-menu, .companies-logo, .worker, .social-media, .product-device, .benefits__list, .nav-list {
+  list-style: none;
+}
+
+.informations-list__mail, .informations-list__number, .informations-list__address, .focus, .object, .social-media__link, .nav-list__link, .logo__link {
+  text-decoration: none;
+}
+
 *,
 *::before,
 *::after {
@@ -30,32 +56,6 @@ ul {
 img {
   display: block;
   max-width: 100%;
-}
-
-.current {
-  color: rgb(33, 150, 243);
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.informations-list, .join, .product-development, .filtr-menu, .companies-logo, .worker, .social-media, .product-device, .benefits__list, .nav-list {
-  list-style: none;
-}
-
-.informations-list__mail, .informations-list__number, .informations-list__address, .focus, .object, .social-media__link, .nav-list__link, .logo__link {
-  text-decoration: none;
 }
 
 .primary__btn {
@@ -359,6 +359,10 @@ img {
 .nav-list__icon {
   margin-right: 10px;
   fill: currentColor;
+}
+
+.current {
+  color: rgb(33, 150, 243);
 }
 
 .primary {

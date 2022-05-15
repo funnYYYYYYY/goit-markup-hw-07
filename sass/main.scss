@@ -1,18 +1,21 @@
 // ----------------------UTILS---------------
 @import "./utils/variable";
-@import "./utils/start";
-@import "./utils/reset";
 @import "./utils/current";
 @import "./utils/visually-hidden";
 @import "./utils/placeholders";
 @import "./utils/mixins";
+
+// ------------BASE------------
+@import "./base/start";
+@import "./base/reset";
+
 // ----------------------BUTTONS-----------
 
-@import "./button/primary-btn";
-@import "./button/button-portfolio";
-@import "./button/button-footer";
-@import "./button/moddal-button";
-@import "./button/modal_submit";
+@import "./components/primary-btn";
+@import "./components/button-portfolio";
+@import "./components/button-footer";
+@import "./components/moddal-button";
+@import "./components/modal_submit";
 
 // ----------------------COMPONENTS-----------
 
