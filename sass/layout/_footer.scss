@@ -124,7 +124,7 @@
   }
 
   &__title {
-    @include font(14px, 700, 1.14, 0.03em);
+    @include font($font-size, $font-weight, $line-height, $letter-spacing);
     align-items: center;
     margin-bottom: 20px;
     text-transform: uppercase;

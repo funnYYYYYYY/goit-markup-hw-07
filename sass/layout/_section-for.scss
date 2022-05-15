@@ -60,7 +60,7 @@
     margin-top: 10px;
     text-align: center;
     color: $primary-text-color;
-    @include font(16px, 500, 1.18, 0.03em);
+    @include font(16px, 500, 1.18, $letter-spacing);
   }
 
   &__container-position {

@@ -7,12 +7,12 @@
   &__text {
     margin-bottom: 4px;
     color: $second-text-color;
-    @include font(18px, 700, 2, 0.06em);
+    @include font(18px, $font-weight, 2, 0.06em);
   }
 
   &__description {
     color: $primary-text-color;
-    @include font(16px, null, 1.88, 0.03em);
+    @include font(16px, null, 1.88, $letter-spacing);
   }
 }
 
@@ -82,7 +82,7 @@
 
 .object__word {
   color: $background-color;
-  @include font(18px, null, 1.55, 0.03em);
+  @include font(18px, null, 1.55, $letter-spacing);
 }
 
 .object {

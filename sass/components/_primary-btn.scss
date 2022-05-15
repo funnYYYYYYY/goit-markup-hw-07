@@ -1,5 +1,5 @@
 .primary__btn {
-  @include font(null, 700, 1.88, 0.06em);
+  @include font(null, $font-weight, 1.88, 0.06em);
   display: block;
   margin: 0 auto;
   background-color: $accent-text-color;

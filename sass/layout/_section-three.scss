@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    @include font(14px, 700, 1.14, 0.03em);
+    @include font($font-size, $font-weight, $line-height, $letter-spacing);
     text-transform: uppercase;
     background-color: $bcg-product-device;
     width: 100%;

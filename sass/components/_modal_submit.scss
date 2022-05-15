@@ -1,5 +1,5 @@
 .modal-submit {
-  @include font(16px, 700, 1.87, 0.06em);
+  @include font(16px, $font-weight, 1.87, 0.06em);
   @include size(200px, 50px);
   display: block;
   margin-left: auto;

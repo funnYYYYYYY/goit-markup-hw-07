@@ -1,7 +1,6 @@
 .backdrop {
   position: fixed;
-  width: 100%;
-  height: 100%;
+  @include size(100%, 100%);
   top: 0;
   background-color: $backgrop-bcg-color;
 

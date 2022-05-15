@@ -16,7 +16,7 @@
   }
 
   &::placeholder {
-    @include font(16px, null, 1.25, 0.03em);
+    @include font(16px, null, 1.25, $letter-spacing);
     color: rgba(255, 255, 255, 0.6);
   }
 }

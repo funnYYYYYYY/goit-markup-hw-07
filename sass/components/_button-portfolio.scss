@@ -1,5 +1,5 @@
 .button {
-  @include font(16px, 500, 1.63, 0.03em);
+  @include font(16px, 500, 1.63, $letter-spacing);
   border-radius: 4px;
   background: $third-background-color;
   padding: 6px 22px;
